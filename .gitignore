@@ -1,5 +1,6 @@
-# Pictures directory
-Pictures/
+# Pictures directory contents (keep folder but ignore files)
+Pictures/*
+!Pictures/.gitkeep
 
 # Common files to ignore
 .DS_Store
