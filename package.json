@@ -1,0 +1,29 @@
+{
+  "name": "camille-william-wedding",
+  "version": "1.0.0",
+  "description": "Wedding website for Camille & William",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "wedding",
+    "website",
+    "static",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Wedding Website",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/camille-william-wedding.git"
+  },
+  "homepage": "https://your-domain.com"
+}
