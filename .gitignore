@@ -1,0 +1,8 @@
+# Pictures directory
+Pictures/
+
+# Common files to ignore
+.DS_Store
+*.log
+node_modules/
+.env
