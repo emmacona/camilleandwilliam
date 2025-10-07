@@ -20,7 +20,8 @@
                 <li><a href="#ceremony" class="nav-link">Cérémonie</a></li>
                 <li><a href="#reception" class="nav-link">Réception</a></li>
                 <li><a href="#dresscode" class="nav-link">Code vestimentaire</a></li>
-                <li><a href="#travel" class="nav-link">Voyage & Hébergement</a></li>
+                <li><a href="#travel" class="nav-link">Hébergement</a></li>
+                <li><a href="#transportation" class="nav-link">Voyagement</a></li>
                 <li><a href="#rsvp" class="nav-link">RSVP</a></li>
                 <li><a href="#registry" class="nav-link">Liste de mariage</a></li>
             </ul>
@@ -115,37 +116,221 @@
     <!-- Travel & Stay Section -->
     <section id="travel" class="travel">
         <div class="container">
-            <h2 class="section-title">Voyage & Hébergement</h2>
+            <h2 class="section-title">Hébergement</h2>
             <div class="travel-content">
+                
                 <div class="hotel-recommendations">
                     <h3>Hôtels recommandés</h3>
                     <div class="hotel-grid">
-                        <div class="hotel-card">
-                            <h4>Nom d'hôtel 1</h4>
-                            <p>Distance : 5 minutes du lieu</p>
-                            <p>Tarif : XXX$/nuit</p>
+                        <div class="hotel-card" data-hotel="manoir-hovey">
+                            <div class="hotel-header">
+                                <h4>Manoir Hovey</h4>
+                                <div class="hotel-rating">
+                                    <span class="stars">★★★★★</span>
+                                </div>
+                            </div>
+                            <div class="hotel-type">Hôtel</div>
+                            <div class="hotel-details">
+                                <p><i class="fas fa-clock"></i> ~35 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $$$</p>
+                            </div>
+                            <div class="hotel-address">575 Chemin Hovey, North Hatley</div>
                         </div>
-                        <div class="hotel-card">
-                            <h4>Nom d'hôtel 2</h4>
-                            <p>Distance : 10 minutes du lieu</p>
-                            <p>Tarif : XXX$/nuit</p>
+                        
+                        <div class="hotel-card" data-hotel="ripplecove">
+                            <div class="hotel-header">
+                                <h4>Ripplecove Hotel & Spa</h4>
+                                <div class="hotel-rating">
+                                    <span class="stars">★★★★★</span>
+                                </div>
+                            </div>
+                            <div class="hotel-type">Hôtel</div>
+                            <div class="hotel-details">
+                                <p><i class="fas fa-clock"></i> ~25 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $$</p>
+                            </div>
+                            <div class="hotel-address">700 rue Ripplecove, Ayer's Cliff</div>
+                        </div>
+                        
+                        <div class="hotel-card" data-hotel="estrimont">
+                            <div class="hotel-header">
+                                <h4>Estrimont Suites & Spa</h4>
+                                <div class="hotel-rating">
+                                    <span class="stars">★★★★</span>
+                                </div>
+                            </div>
+                            <div class="hotel-type">Hôtel</div>
+                            <div class="hotel-details">
+                                <p><i class="fas fa-clock"></i> ~15 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $$</p>
+                            </div>
+                            <div class="hotel-address">44 avenue de l'auberge, Magog-Orford</div>
+                        </div>
+                        
+                        <div class="hotel-card" data-hotel="espace-4-saisons">
+                            <div class="hotel-header">
+                                <h4>Espace 4 Saisons</h4>
+                                <div class="hotel-rating">
+                                    <span class="stars">★★★★</span>
+                                </div>
+                            </div>
+                            <div class="hotel-type">Hôtel</div>
+                            <div class="hotel-details">
+                                <p><i class="fas fa-clock"></i> ~20 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $</p>
+                            </div>
+                            <div class="hotel-address">4940 Chemin du Parc, Magog-Orford</div>
+                        </div>
+                        
+                        <div class="hotel-card" data-hotel="bois-dormant">
+                            <div class="hotel-header">
+                                <h4>Ô Bois Dormant</h4>
+                                <div class="hotel-rating">
+                                    <span class="stars">★★★★</span>
+                                </div>
+                            </div>
+                            <div class="hotel-type">B&B</div>
+                            <div class="hotel-details">
+                                <p><i class="fas fa-clock"></i> ~10 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $</p>
+                            </div>
+                            <div class="hotel-address">205 rue Abbott, Magog-Orford</div>
                         </div>
                     </div>
                 </div>
-                <div class="travel-info">
-                    <div class="detail-card">
-                        <div class="detail-icon">
-                            <i class="fas fa-plane"></i>
+                <div class="chalet-recommendations">
+                    <h3>Chalets pour groupes</h3>
+                    <div class="chalet-grid">
+                        <div class="chalet-card" data-chalet="maison-magog">
+                            <div class="chalet-header">
+                                <h4>La Maison MAGOG HOUSE</h4>
+                                <div class="chalet-rating">
+                                    <span class="rating-score">10/10</span>
+                                    <span class="rating-label">Exceptionnel</span>
+                                </div>
+                            </div>
+                            <div class="chalet-type">Chalet (VRBO)</div>
+                            <div class="chalet-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Magog, Centre ville</p>
+                                <p><i class="fas fa-clock"></i> ~10 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $</p>
+                            </div>
+                            <div class="chalet-capacity">
+                                <i class="fas fa-users"></i> Jusqu'à 12 personnes
+                            </div>
+                            <div class="chalet-features">
+                                <span class="feature-tag">6 chambres</span>
+                                <span class="feature-tag">5 salles de bain</span>
+                                <span class="feature-tag">BBQ</span>
+                                <span class="feature-tag">Foyer extérieur</span>
+                            </div>
                         </div>
-                        <h3>Aéroport</h3>
-                        <p>Aéroport le plus proche<br>30 minutes du lieu</p>
+                        
+                        <div class="chalet-card" data-chalet="family-autumn">
+                            <div class="chalet-header">
+                                <h4>Family Autumn House</h4>
+                                <div class="chalet-rating">
+                                    <span class="rating-score">9.2/10</span>
+                                </div>
+                            </div>
+                            <div class="chalet-type">Chalet (VRBO)</div>
+                            <div class="chalet-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Ayer's Cliff</p>
+                                <p><i class="fas fa-clock"></i> ~25 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $</p>
+                            </div>
+                            <div class="chalet-capacity">
+                                <i class="fas fa-users"></i> Jusqu'à 6 personnes
+                            </div>
+                            <div class="chalet-features">
+                                <span class="feature-tag">3 chambres</span>
+                                <span class="feature-tag">2 salles de bain</span>
+                            </div>
+                        </div>
+                        
+                        <div class="chalet-card" data-chalet="le-memph">
+                            <div class="chalet-header">
+                                <h4>Le Memph - Condo Orford</h4>
+                                <div class="chalet-rating">
+                                    <span class="rating-score">9.8/10</span>
+                                    <span class="rating-label">Exceptionnel</span>
+                                </div>
+                            </div>
+                            <div class="chalet-type">VRBO</div>
+                            <div class="chalet-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Orford</p>
+                                <p><i class="fas fa-clock"></i> ~15 min</p>
+                                <p><i class="fas fa-dollar-sign"></i> $$</p>
+                            </div>
+                            <div class="chalet-capacity">
+                                <i class="fas fa-users"></i> Jusqu'à 8 personnes
+                            </div>
+                            <div class="chalet-features">
+                                <span class="feature-tag">3 chambres</span>
+                                <span class="feature-tag">3 salles de bain</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="detail-card">
-                        <div class="detail-icon">
-                            <i class="fas fa-car"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transportation Section -->
+    <section id="transportation" class="transportation">
+        <div class="container">
+            <h2 class="section-title">Voyagement</h2>
+            <div class="transportation-content">
+                <div class="shuttle-info">
+                    <h3>Service de navette</h3>
+                    <p class="shuttle-description">Un service de navette sera disponible pour faciliter vos déplacements tout au long de la soirée.</p>
+                    
+                    <div class="shuttle-schedule">
+                        <div class="shuttle-route">
+                            <div class="route-header">
+                                <div class="route-icon">
+                                    <i class="fas fa-church"></i>
+                                </div>
+                                <h4>Église → Hermitage</h4>
+                            </div>
+                            <div class="route-details">
+                                <p><strong>Départ après la cérémonie</strong></p>
+                                <p>Navette disponible immédiatement après la cérémonie pour se rendre à la réception à l'Hermitage.</p>
+                            </div>
                         </div>
-                        <h3>Transport</h3>
-                        <p>Service de navette disponible<br>Uber/Lyft recommandé</p>
+                        
+                        <div class="shuttle-route">
+                            <div class="route-header">
+                                <div class="route-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <h4>Hermitage → Point de retour</h4>
+                            </div>
+                            <div class="route-details">
+                                <p><strong>Départs programmés :</strong></p>
+                                <div class="departure-times">
+                                    <div class="time-slot">
+                                        <span class="time">22h00</span>
+                                        <span class="description">Premier départ</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="time">00h00</span>
+                                        <span class="description">Deuxième départ</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="time">02h00</span>
+                                        <span class="description">Dernier départ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="transportation-note">
+                        <div class="note-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <p><strong>Note importante :</strong> Les navettes partiront de l'Hermitage aux heures indiquées. Veuillez vous présenter à l'arrêt de navette 5 minutes avant l'heure de départ.</p>
                     </div>
                 </div>
             </div>
@@ -172,14 +357,6 @@
                         <textarea id="address" name="address" rows="3" placeholder="Adresse, Ville, Province, Code postal" required></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="guests">Nombre d'invités *</label>
-                        <select id="guests" name="guests" required>
-                            <option value="">Sélectionnez le nombre d'invités</option>
-                            <option value="1">Juste moi</option>
-                            <option value="2">Moi et mon conjoint(e)</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
                         <label for="attending">Serez-vous présent(e) ? *</label>
                         <div class="radio-group">
                             <label class="radio-label">
@@ -195,8 +372,51 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <label for="invitation">Y avait-il un autre nom sur votre invitation formelle ? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="invitation" value="yes" required>
+                                <span class="radio-custom"></span>
+                                Oui, il y avait un autre nom
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="invitation" value="no" required>
+                                <span class="radio-custom"></span>
+                                Non, j'étais seul(e) sur l'invitation
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label for="dietary">Restrictions alimentaires</label>
                         <textarea id="dietary" name="dietary" placeholder="Veuillez nous faire savoir s'il y a des restrictions alimentaires ou des allergies"></textarea>
+                    </div>
+                    
+                    <!-- Second Person Form (Hidden by default) -->
+                    <div id="second-person-form" class="second-person-section" style="display: none;">
+                        <h3>Informations de la deuxième personne</h3>
+                        <div class="form-group">
+                            <label for="second-name">Nom complet de la deuxième personne *</label>
+                            <input type="text" id="second-name" name="second-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="second-attending">La deuxième personne sera-t-elle présente ? *</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="second-attending" value="yes">
+                                    <span class="radio-custom"></span>
+                                    Oui, elle sera là !
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="second-attending" value="no">
+                                    <span class="radio-custom"></span>
+                                    Non, elle ne peut pas venir
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="second-dietary">Restrictions alimentaires de la deuxième personne</label>
+                            <textarea id="second-dietary" name="second-dietary" placeholder="Restrictions alimentaires ou allergies de la deuxième personne"></textarea>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Soumettre RSVP</button>
                 </form>
